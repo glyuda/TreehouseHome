@@ -1,4 +1,52 @@
 body {
   background-color: #fff;
 
+  h1 {
+    font-family: 'montserratbold';
+    font-size: 60px;
+    line-height: 65px;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+    color: #fff;
+    text-align: center;
+  }
+
+  h3 {
+    font-family: 'roboto_slabregular';
+    font-size: 20px;
+    color: #ccc;
+    text-align: center;
+  }
+
+  .button {
+    display: block;
+    height: 60px;
+    width: 200px;
+    padding: 0 25px;
+
+    background-color: #7cc576;
+
+    &:hover {
+      background-color: #fff;
+
+      a {
+        color: #222222;
+        text-decoration: none;
+      }
+    }
+
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+
+    a {
+      font-family: 'montserratbold';
+      font-size: 16px;
+      font-weight: bold;
+      text-transform: uppercase;
+      line-height: 60px;
+      color: #fff;
+    }
+  }
+
 }

@@ -5801,27 +5801,59 @@ button.close {
 
 @font-face {
   font-family: 'montserratregular';
-  src: url("montserrat-regular-webfont.woff2") format("woff2"), url("montserrat-regular-webfont.woff") format("woff");
+  src: url("fonts/montserrat-regular-webfont.woff2") format("woff2"), url("fonts/montserrat-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'montserratbold';
-  src: url("montserrat-bold-webfont.woff2") format("woff2"), url("montserrat-bold-webfont.woff") format("woff");
+  src: url("fonts/montserrat-bold-webfont.woff2") format("woff2"), url("fonts/montserrat-bold-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'roboto_slabregular';
-  src: url("robotoslab-regular-webfont.woff2") format("woff2"), url("robotoslab-regular-webfont.woff") format("woff");
+  src: url("fonts/robotoslab-regular-webfont.woff2") format("woff2"), url("fonts/robotoslab-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 
 body {
   background-color: #fff; }
+  body h1 {
+    font-family: 'montserratbold';
+    font-size: 60px;
+    line-height: 65px;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+    color: #fff;
+    text-align: center; }
+  body h3 {
+    font-family: 'roboto_slabregular';
+    font-size: 20px;
+    color: #ccc;
+    text-align: center; }
+  body .button {
+    display: block;
+    height: 60px;
+    width: 200px;
+    padding: 0 25px;
+    background-color: #7cc576;
+    border-radius: 30px; }
+    body .button:hover {
+      background-color: #fff; }
+      body .button:hover a {
+        color: #222222;
+        text-decoration: none; }
+    body .button a {
+      font-family: 'montserratbold';
+      font-size: 16px;
+      font-weight: bold;
+      text-transform: uppercase;
+      line-height: 60px;
+      color: #fff; }
 
 header {
-  padding: 40px 0; }
+  margin: 40px 0; }
   header img {
     float: left; }
   header .main-menu {
@@ -5842,3 +5874,14 @@ header {
           header .main-menu ul li a:hover {
             color: #222222;
             text-decoration: none; }
+
+.view-portfolio-section {
+  background-image: url("../images/backgrounds/bg-view-portfolio-section.png");
+  height: 530px;
+  margin-bottom: 120px; }
+  .view-portfolio-section .page-title {
+    padding: 120px 0 55px; }
+    .view-portfolio-section .page-title h1 {
+      margin-bottom: 40px; }
+  .view-portfolio-section .button {
+    margin: 0 auto; }

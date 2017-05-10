@@ -5828,10 +5828,30 @@ body {
     color: #fff;
     text-align: center; }
   body h3 {
+    font-family: 'montserratbold';
+    font-size: 18px;
+    line-height: 35px;
+    text-transform: uppercase;
+    color: #222222;
+    text-align: center; }
+  body h4 {
     font-family: 'roboto_slabregular';
     font-size: 20px;
     color: #ccc;
     text-align: center; }
+  body .section-header {
+    margin-top: 89px;
+    margin-bottom: 85px; }
+    body .section-header h2 {
+      font-family: 'montserratbold';
+      font-size: 40px;
+      line-height: 55px;
+      text-transform: uppercase;
+      text-align: center;
+      letter-spacing: -2px;
+      margin: 0; }
+    body .section-header h4 {
+      margin: 0; }
   body .button {
     display: block;
     height: 60px;
@@ -5877,11 +5897,32 @@ header {
 
 .view-portfolio-section {
   background-image: url("../images/backgrounds/bg-view-portfolio-section.png");
-  height: 530px;
-  margin-bottom: 120px; }
+  height: 530px; }
   .view-portfolio-section .page-title {
     padding: 120px 0 55px; }
     .view-portfolio-section .page-title h1 {
       margin-bottom: 40px; }
   .view-portfolio-section .button {
     margin: 0 auto; }
+
+.professional-services-section {
+  margin-bottom: 105px; }
+  .professional-services-section .item h3 {
+    margin: 0; }
+  .professional-services-section .item .item-icon {
+    height: 55px;
+    width: 58px;
+    margin: 8px auto 28px;
+    background-image: url("../images/icons/services-info-iconset.png");
+    background-repeat: no-repeat; }
+  .professional-services-section .item .first {
+    background-position: -1px 2px; }
+  .professional-services-section .item .second {
+    background-position: -120px 2px; }
+  .professional-services-section .item .third {
+    background-position: -242px 2px; }
+  .professional-services-section .item p {
+    font-family: 'roboto_slabregular';
+    font-size: 14px;
+    color: #777777;
+    text-align: center; }

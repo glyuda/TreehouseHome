@@ -5926,3 +5926,43 @@ header {
     font-size: 14px;
     color: #777777;
     text-align: center; }
+
+.learn-more-section {
+  height: 615px; }
+  .learn-more-section .left-side {
+    width: 30%;
+    height: inherit;
+    float: left;
+    background-color: #e9e9e9;
+    background-image: url("../images/content/learn-more-gear.png");
+    background-repeat: no-repeat;
+    background-position: right center; }
+  .learn-more-section .right-side {
+    width: 70%;
+    height: inherit;
+    float: right;
+    padding-left: 100px;
+    background-image: url("../images/backgrounds/bg-learn-more.png");
+    background-repeat: no-repeat; }
+    .learn-more-section .right-side .section-header {
+      margin-bottom: 10px; }
+      .learn-more-section .right-side .section-header h2 {
+        text-align: left;
+        padding-bottom: 30px;
+        color: #fff; }
+        .learn-more-section .right-side .section-header h2 span {
+          color: #7cc576; }
+      .learn-more-section .right-side .section-header h4 {
+        padding-bottom: 20px;
+        text-align: left;
+        font-size: 16px; }
+    .learn-more-section .right-side .items h4 {
+      text-align: left;
+      padding: 8px 52px;
+      font-size: 16px;
+      background-image: url("../images/icons/learn-more-item-icon.png");
+      background-repeat: no-repeat;
+      abckground-position: left center; }
+    .learn-more-section .right-side .button {
+      margin-top: 45px;
+      width: 165px; }

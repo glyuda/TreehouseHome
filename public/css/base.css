@@ -5798,3 +5798,47 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+
+@font-face {
+  font-family: 'montserratregular';
+  src: url("montserrat-regular-webfont.woff2") format("woff2"), url("montserrat-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'montserratbold';
+  src: url("montserrat-bold-webfont.woff2") format("woff2"), url("montserrat-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'roboto_slabregular';
+  src: url("robotoslab-regular-webfont.woff2") format("woff2"), url("robotoslab-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+body {
+  background-color: #fff; }
+
+header {
+  padding: 40px 0; }
+  header img {
+    float: left; }
+  header .main-menu {
+    float: right; }
+    header .main-menu ul {
+      margin: 0;
+      padding: 0;
+      list-style-type: none; }
+      header .main-menu ul li {
+        display: inline-block;
+        padding: 0 17px; }
+        header .main-menu ul li a {
+          font-family: 'montserratregular';
+          font-size: 14px;
+          line-height: 41px;
+          color: #777777;
+          text-transform: uppercase; }
+          header .main-menu ul li a:hover {
+            color: #222222;
+            text-decoration: none; }

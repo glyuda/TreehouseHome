@@ -57,8 +57,9 @@
     margin-top: 25px;
 
     a {
-      font-family: 'montserratbold';
+      font-family: 'Times New Roman';
       font-size: 16px;
+      font-weight: bold;
       text-transform: uppercase;
       color: #7cc576;
 
@@ -67,6 +68,13 @@
       background-image: url('../images/icons/latest-projects-arrow-icon.png');
       background-repeat: no-repeat;
       background-position: right center;
+
+      &:hover {
+        color: #222222;
+        text-decoration: none;
+
+        background-image: url('../images/icons/latest-projects-arrow-hover-icon.png');
+      }
     }
 
   }

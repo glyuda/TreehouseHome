@@ -5999,11 +5999,66 @@ header {
   .latest-project-section .view-details {
     margin-top: 25px; }
     .latest-project-section .view-details a {
-      font-family: 'montserratbold';
+      font-family: 'Times New Roman';
       font-size: 16px;
+      font-weight: bold;
       text-transform: uppercase;
       color: #7cc576;
       padding-right: 25px;
       background-image: url("../images/icons/latest-projects-arrow-icon.png");
       background-repeat: no-repeat;
       background-position: right center; }
+      .latest-project-section .view-details a:hover {
+        color: #222222;
+        text-decoration: none;
+        background-image: url("../images/icons/latest-projects-arrow-hover-icon.png"); }
+
+.culture-values-section {
+  background-color: #f9f9f9;
+  padding-bottom: 100px; }
+  .culture-values-section .item p {
+    text-align: center; }
+  .culture-values-section .item .item-icon {
+    height: 93px;
+    width: 93px;
+    margin: 8px auto 16px;
+    background-image: url("../images/icons/culture-values-iconset.png");
+    background-repeat: no-repeat; }
+  .culture-values-section .item .first {
+    background-position: -1px 2px; }
+    .culture-values-section .item .first:after {
+      display: block;
+      width: 30%;
+      content: ' ';
+      position: absolute;
+      border-bottom: 2px solid #777;
+      top: 25%;
+      right: -1px; }
+  .culture-values-section .item .second {
+    background-position: -118px 2px; }
+    .culture-values-section .item .second:before {
+      display: block;
+      width: 30%;
+      content: ' ';
+      position: absolute;
+      border-bottom: 2px solid #777;
+      top: 25%;
+      right: 272px; }
+    .culture-values-section .item .second:after {
+      display: block;
+      width: 30%;
+      content: ' ';
+      position: absolute;
+      border-bottom: 2px solid #777;
+      top: 25%;
+      right: -1px; }
+  .culture-values-section .item .third {
+    background-position: -227px 2px; }
+    .culture-values-section .item .third:before {
+      display: block;
+      width: 30%;
+      content: ' ';
+      position: absolute;
+      border-bottom: 2px solid #777;
+      top: 25%;
+      right: 272px; }

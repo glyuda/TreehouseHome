@@ -5827,6 +5827,13 @@ body {
     letter-spacing: -2px;
     color: #fff;
     text-align: center; }
+  body h2 {
+    font-family: 'montserratbold';
+    font-size: 40px;
+    line-height: 55px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: -2px; }
   body h3 {
     font-family: 'montserratbold';
     font-size: 18px;
@@ -5843,12 +5850,6 @@ body {
     margin-top: 89px;
     margin-bottom: 85px; }
     body .section-header h2 {
-      font-family: 'montserratbold';
-      font-size: 40px;
-      line-height: 55px;
-      text-transform: uppercase;
-      text-align: center;
-      letter-spacing: -2px;
       margin: 0; }
     body .section-header h4 {
       margin: 0; }
@@ -5897,7 +5898,7 @@ header {
 
 .view-portfolio-section {
   background-image: url("../images/backgrounds/bg-view-portfolio-section.png");
-  height: 530px; }
+  min-height: 530px; }
   .view-portfolio-section .page-title {
     padding: 120px 0 55px; }
     .view-portfolio-section .page-title h1 {
@@ -5962,7 +5963,7 @@ header {
       font-size: 16px;
       background-image: url("../images/icons/learn-more-item-icon.png");
       background-repeat: no-repeat;
-      abckground-position: left center; }
+      background-position: left center; }
     .learn-more-section .right-side .button {
       margin-top: 45px;
       width: 165px; }
@@ -6110,7 +6111,7 @@ header {
       margin-top: 80px; }
 
 .contact-us-section {
-  height: 250px;
+  min-height: 250px;
   background-color: #7cc576;
   color: white; }
   .contact-us-section .section-header {
@@ -6150,3 +6151,86 @@ header {
     background-position: -458px -1px; }
   .logos-section .fourth {
     background-position: -685px -1px; }
+
+footer {
+  background-color: #222;
+  padding-top: 30px; }
+  footer .footer-main {
+    min-height: 365px;
+    font-family: 'roboto_slabregular';
+    font-size: 16px;
+    color: #ececec;
+    letter-spacing: -1px; }
+    footer .footer-main h3 {
+      padding-bottom: 15px;
+      text-align: left;
+      color: #fff; }
+    footer .footer-main .contact-us, footer .footer-main .latest-posts, footer .footer-main .latest-tweets {
+      padding-left: 5px;
+      padding-right: 5px; }
+    footer .footer-main .contacts-item {
+      padding: 10px 38px;
+      background-image: url("../images/icons/footer-contactus-iconset.png");
+      background-repeat: no-repeat; }
+    footer .footer-main .first-contact {
+      padding-top: 0;
+      background-position: -2px 4px; }
+    footer .footer-main .second-contact {
+      background-position: -2px -75px; }
+    footer .footer-main .third-contact {
+      background-position: -2px -155px; }
+    footer .footer-main .posts-item {
+      padding: 10px 38px;
+      background-image: url("../images/icons/footer-posts-iconset.png");
+      background-repeat: no-repeat; }
+    footer .footer-main .first-post {
+      padding-top: 0;
+      background-position: 0 1px; }
+    footer .footer-main .second-post {
+      background-position: 0 -22px; }
+    footer .footer-main .third-post {
+      background-position: 0 11px; }
+    footer .footer-main .fourth-post {
+      background-position: 0 11px; }
+    footer .footer-main .fifth-post {
+      background-position: 0 -55px; }
+    footer .footer-main .tweet-item {
+      padding: 0 38px 10px;
+      background-image: url("../images/icons/footer-tweet-icon.png");
+      background-repeat: no-repeat;
+      background-position: 0 4px; }
+      footer .footer-main .tweet-item p {
+        width: 245px; }
+      footer .footer-main .tweet-item .time-marker {
+        font-family: 'Times New Roman';
+        font-size: 12px;
+        letter-spacing: 0; }
+  footer .footer-bottom {
+    background-color: #fff;
+    padding: 30px 0; }
+    footer .footer-bottom .copyright {
+      font-family: 'Times New Roman';
+      font-size: 14px;
+      line-height: 41px;
+      color: #555; }
+    footer .footer-bottom .social-networks {
+      width: 204px;
+      margin: 0 auto;
+      overflow: hidden; }
+      footer .footer-bottom .social-networks .network-item {
+        height: 41px;
+        width: 41px;
+        margin: 0 5px;
+        float: left;
+        background-repeat: no-repeat;
+        background-position: 0 0; }
+        footer .footer-bottom .social-networks .network-item:hover {
+          background-position: 0 -43px; }
+      footer .footer-bottom .social-networks .tweeter {
+        background-image: url("../images/icons/footer-network-tweeter-iconset.png"); }
+      footer .footer-bottom .social-networks .facebook {
+        background-image: url("../images/icons/footer-network-facebook-iconset.png"); }
+      footer .footer-bottom .social-networks .pinterest {
+        background-image: url("../images/icons/footer-network-pinterest-iconset.png"); }
+      footer .footer-bottom .social-networks .google {
+        background-image: url("../images/icons/footer-network-google-iconset.png"); }
